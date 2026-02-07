@@ -81,4 +81,9 @@ public class Activity
             Console.Write("\b \b"); 
         }
     }
+    protected void PauseWithSpinner(int seconds)
+{
+    ShowSpinner(seconds);
+}
+
 }
